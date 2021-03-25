@@ -1,0 +1,46 @@
+@font-face {
+  font-family: FuturaLTPro;
+  src: url("fonts/FuturaLTPro-Medium.otf") format("opentype");
+}
+
+@font-face {
+  font-family: FuturaLTPro;
+  font-weight: 500;
+  src: url("fonts/FuturaLTPro-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: FuturaLTPro;
+  font-weight: 300;
+  src: url("fonts/FuturaLTPro-Light.otf") format("opentype");
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh; 
+  display: flex; 
+  justify-content: center; 
+  align-items: center;
+  position: relative;
+  background-color: rgb(136, 133, 125, .25);
+  font-family: FuturaLTPro, Arial;
+}
+
+#underConstructionSvg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 696px;
+}
+
+#underConstructionText {
+  font-size: 24.679px;
+  text-transform: uppercase;
+  transform-origin: 0 0;
+  transform: rotate(-13deg);
+  position: absolute;
+  top: 82.565px;
+  left: 202.634px;
+  color: white;
+}
