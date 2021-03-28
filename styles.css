@@ -25,22 +25,29 @@ body {
   position: relative;
   background-color: rgb(136, 133, 125, .25);
   font-family: FuturaLTPro, Arial;
+  min-width: 742px;
+  min-height: 670px;
 }
 
-#underConstructionSvg {
+.under-construction {
   position: absolute;
   top: 0;
   left: 0;
   width: 696px;
 }
-
-#underConstructionText {
+.under-construction > span {
   font-size: 24.679px;
+  line-height: 1;
   text-transform: uppercase;
   transform-origin: 0 0;
   transform: rotate(-13deg);
   position: absolute;
-  top: 80.565px;
+  top: 82.565px;
   left: 202.634px;
   color: white;
+  white-space: nowrap;
+}
+
+.content {
+  width: 742px
 }
