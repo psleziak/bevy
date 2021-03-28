@@ -27,6 +27,10 @@ body {
   font-family: FuturaLTPro, Arial;
   min-width: 742px;
   min-height: 670px;
+  line-height: 1;
+  color: white;
+  white-space: nowrap;
+  text-transform: uppercase;
 }
 
 .under-construction {
@@ -37,17 +41,52 @@ body {
 }
 .under-construction > span {
   font-size: 24.679px;
-  line-height: 1;
-  text-transform: uppercase;
   transform-origin: 0 0;
   transform: rotate(-13deg);
   position: absolute;
   top: 82.565px;
   left: 202.634px;
-  color: white;
-  white-space: nowrap;
 }
 
 .content {
-  width: 742px
+  width: 742px;
+  position: relative;
+}
+
+.desc {
+  position: absolute;
+  font-size: 37.597px;
+}
+.desc--1 {
+  left: 41.575px;
+  top: 140.021px;
+}
+.desc--2 {
+  left: 133.372px;
+  top: 186.778px;
+}
+.desc--3 {
+  left: 63.78px;
+  top: 233.535px;
+}
+.desc--4 {
+  left: 43.354px;
+  top: 294.494px;
+}
+.book {
+  position: absolute;
+  font-size: 24px; 
+}
+.book--1 {
+  font-size: 18.539px; 
+  left: 401.328px;
+  top: 73.4px;
+}
+.book--2 {
+  left: 467.47px;
+  top: 102.669px;
+}
+.book--3 {
+  left: 419.281px;
+  top: 136.644px;
 }
